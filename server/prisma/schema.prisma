@@ -18,7 +18,7 @@ model User {
   roles     Json
 }
 
-model TestDate {
+model Testdate {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -29,4 +29,11 @@ model Event {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   eventName String?
+}
+
+model Reply {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  replyName String?
 }

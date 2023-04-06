@@ -31,31 +31,31 @@
   },
   {
     "role": "user",
-    "resource": "TestDate",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "TestDate",
+    "resource": "Testdate",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "TestDate",
+    "resource": "Testdate",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "TestDate",
+    "resource": "Testdate",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Testdate",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "TestDate",
+    "resource": "Testdate",
     "action": "read:any",
     "attributes": "*"
   },
@@ -86,6 +86,36 @@
   {
     "role": "user",
     "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Reply",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Reply",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Reply",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Reply",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Reply",
     "action": "read:any",
     "attributes": "*"
   }
