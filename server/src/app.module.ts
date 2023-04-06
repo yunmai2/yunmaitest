@@ -2,8 +2,9 @@ import { Module, Scope } from "@nestjs/common";
 import { APP_INTERCEPTOR } from "@nestjs/core";
 import { MorganInterceptor, MorganModule } from "nest-morgan";
 import { UserModule } from "./user/user.module";
-import { TestDateModule } from "./testDate/testDate.module";
+import { TestdateModule } from "./testdate/testdate.module";
 import { EventModule } from "./event/event.module";
+import { ReplyModule } from "./reply/reply.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -21,8 +22,9 @@ import { AuthModule } from "./auth/auth.module";
     ACLModule,
     AuthModule,
     UserModule,
-    TestDateModule,
+    TestdateModule,
     EventModule,
+    ReplyModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
