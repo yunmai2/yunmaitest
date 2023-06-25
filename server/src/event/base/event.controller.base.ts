@@ -53,7 +53,7 @@ export class EventControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
-        eventName: true,
+        EventName: true,
       },
     });
   }
@@ -78,7 +78,7 @@ export class EventControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
-        eventName: true,
+        EventName: true,
       },
     });
   }
@@ -104,7 +104,7 @@ export class EventControllerBase {
         id: true,
         createdAt: true,
         updatedAt: true,
-        eventName: true,
+        EventName: true,
       },
     });
     if (result === null) {
@@ -139,7 +139,7 @@ export class EventControllerBase {
           id: true,
           createdAt: true,
           updatedAt: true,
-          eventName: true,
+          EventName: true,
         },
       });
     } catch (error) {
@@ -173,7 +173,7 @@ export class EventControllerBase {
           id: true,
           createdAt: true,
           updatedAt: true,
-          eventName: true,
+          EventName: true,
         },
       });
     } catch (error) {

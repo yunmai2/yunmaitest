@@ -38,7 +38,7 @@ class EventWhereInput {
   @Field(() => StringNullableFilter, {
     nullable: true,
   })
-  eventName?: StringNullableFilter;
+  EventName?: StringNullableFilter;
 }
 
 export { EventWhereInput as EventWhereInput };

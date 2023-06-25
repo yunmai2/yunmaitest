@@ -22,27 +22,27 @@ const CREATE_INPUT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
-  eventName: "exampleEventName",
+  EventName: "exampleEventName",
 };
 const CREATE_RESULT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
-  eventName: "exampleEventName",
+  EventName: "exampleEventName",
 };
 const FIND_MANY_RESULT = [
   {
     id: "exampleId",
     createdAt: new Date(),
     updatedAt: new Date(),
-    eventName: "exampleEventName",
+    EventName: "exampleEventName",
   },
 ];
 const FIND_ONE_RESULT = {
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
-  eventName: "exampleEventName",
+  EventName: "exampleEventName",
 };
 
 const service = {
