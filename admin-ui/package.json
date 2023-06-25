@@ -1,5 +1,5 @@
 {
-  "name": "@test-service/admin",
+  "name": "@my-service/admin",
   "private": true,
   "dependencies": {
     "@apollo/client": "3.6.9",
