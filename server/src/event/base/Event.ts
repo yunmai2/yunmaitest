@@ -49,7 +49,7 @@ class Event {
   @Field(() => String, {
     nullable: true,
   })
-  eventName!: string | null;
+  EventName!: string | null;
 }
 
 export { Event as Event };

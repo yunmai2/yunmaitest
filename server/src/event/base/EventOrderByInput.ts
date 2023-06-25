@@ -52,7 +52,7 @@ class EventOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
-  eventName?: SortOrder;
+  EventName?: SortOrder;
 }
 
 export { EventOrderByInput as EventOrderByInput };

@@ -1,3 +1,3 @@
 export type EventCreateInput = {
-  eventName?: string | null;
+  EventName?: string | null;
 };

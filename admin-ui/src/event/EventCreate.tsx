@@ -5,7 +5,7 @@ export const EventCreate = (props: CreateProps): React.ReactElement => {
   return (
     <Create {...props}>
       <SimpleForm>
-        <TextInput label="eventName" source="eventName" />
+        <TextInput label="eventName" source="EventName" />
       </SimpleForm>
     </Create>
   );

@@ -5,7 +5,7 @@ export const EventEdit = (props: EditProps): React.ReactElement => {
   return (
     <Edit {...props}>
       <SimpleForm>
-        <TextInput label="eventName" source="eventName" />
+        <TextInput label="eventName" source="EventName" />
       </SimpleForm>
     </Edit>
   );

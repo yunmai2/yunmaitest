@@ -24,7 +24,7 @@ class EventUpdateInput {
   @Field(() => String, {
     nullable: true,
   })
-  eventName?: string | null;
+  EventName?: string | null;
 }
 
 export { EventUpdateInput as EventUpdateInput };

@@ -24,7 +24,7 @@ class EventCreateInput {
   @Field(() => String, {
     nullable: true,
   })
-  eventName?: string | null;
+  EventName?: string | null;
 }
 
 export { EventCreateInput as EventCreateInput };

@@ -1,3 +1,3 @@
 export type EventUpdateInput = {
-  eventName?: string | null;
+  EventName?: string | null;
 };
