@@ -9,18 +9,6 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
-import { TestdateList } from "./testdate/TestdateList";
-import { TestdateCreate } from "./testdate/TestdateCreate";
-import { TestdateEdit } from "./testdate/TestdateEdit";
-import { TestdateShow } from "./testdate/TestdateShow";
-import { EventList } from "./event/EventList";
-import { EventCreate } from "./event/EventCreate";
-import { EventEdit } from "./event/EventEdit";
-import { EventShow } from "./event/EventShow";
-import { ReplyList } from "./reply/ReplyList";
-import { ReplyCreate } from "./reply/ReplyCreate";
-import { ReplyEdit } from "./reply/ReplyEdit";
-import { ReplyShow } from "./reply/ReplyShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -40,7 +28,7 @@ const App = (): React.ReactElement => {
   return (
     <div className="App">
       <Admin
-        title={"TestService"}
+        title={"My service"}
         dataProvider={dataProvider}
         authProvider={jwtAuthProvider}
         theme={theme}
@@ -53,27 +41,6 @@ const App = (): React.ReactElement => {
           edit={UserEdit}
           create={UserCreate}
           show={UserShow}
-        />
-        <Resource
-          name="Testdate"
-          list={TestdateList}
-          edit={TestdateEdit}
-          create={TestdateCreate}
-          show={TestdateShow}
-        />
-        <Resource
-          name="Event"
-          list={EventList}
-          edit={EventEdit}
-          create={EventCreate}
-          show={EventShow}
-        />
-        <Resource
-          name="Reply"
-          list={ReplyList}
-          edit={ReplyEdit}
-          create={ReplyCreate}
-          show={ReplyShow}
         />
       </Admin>
     </div>
